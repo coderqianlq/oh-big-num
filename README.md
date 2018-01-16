@@ -23,4 +23,4 @@
 6. 本实验重在运行准确性和运行效率。以秒为单位计算各个算法所运行的相应时间，并将程序运行时间显示在屏幕上。
 ## 系统功能结构框图
 <div align=center> 
-  <img src="https://i.loli.net/2018/01/16/5a5d84bc897a2.png" width = "300" height = "200" alt="图片名称" />
+  <img src="https://i.loli.net/2018/01/16/5a5d84bc897a2.png" width = "300" height = "400" alt="图片名称" />
