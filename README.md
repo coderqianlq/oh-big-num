@@ -23,7 +23,8 @@
 6. 本实验重在运行准确性和运行效率。以秒为单位计算各个算法所运行的相应时间，并将程序运行时间显示在屏幕上。
 ## 系统功能结构框图
 <div align=center> 
-  <img src="https://i.loli.net/2018/01/16/5a5d84bc897a2.png" alt="功能结构图" />
+  <img src="https://i.loli.net/2018/01/16/5a5d84bc897a2.png" alt="功能结构图">
+</div>	
 ## 主要模块的功能说明
  - 主调程序模块：main_operation1()和main_operation2()为两个主调函数。main_operation1()不涉及文件，但有时间和取余操作；然而对于另一个主调函数main_operation2()而言，涉及文件并实现了硬盘文件和内存的输入输出操作。main()函数总揽全局，实现四则运算及指数运算功能。
  - 双向链表处理模块：create_linkedList1(int n）创建双向循环链表并初始化为0,create_linkedList2(int n)创建双向循环链表，size()用于获取链表长度，insert(int item, int pos)实现在pos位置后插入节点，将节点数据部分赋值为item, erase(int pos)用于删除pos处的节点， display(ostream & out)直接输出链表数据，将最后加减乘除指数运算所得结果输出至屏幕。
@@ -96,6 +97,7 @@ class bigNum
 ## 程序主要功能流程图
 <div align=center> 
   <img src="https://i.loli.net/2018/01/18/5a60508e147eb.png" alt="功能结构图" />
+</div>
 ## 主要函数的设计
 1. add_bigNum加法函数的设计思路:
 设计两次循环，并非两重循环。第一次循环循环位数少的大整数位次，第二次循环循环差位次。在此过程中主要设计了三个变量用于记录循环过程中的各个数据 。有sum记录每位相加的和，remainder记录对和取余的结果,quotient记录相加后的进位数。设计思想和整数的加法一致，即为满10进位。以下为加法运算过程举例：2583+796
