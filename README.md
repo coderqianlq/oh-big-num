@@ -26,8 +26,8 @@
   <img src="https://i.loli.net/2018/01/16/5a5d84bc897a2.png" alt="功能结构图">
 </div>	
 ## 主要模块的功能说明
- - 主调程序模块：main_operation1()和main_operation2()为两个主调函数。main_operation1()不涉及文件，但有时间和取余操作；然而对于另一个主调函数main_operation2()而言，涉及文件并实现了硬盘文件和内存的输入输出操作。main()函数总揽全局，实现四则运算及指数运算功能。
- - 双向链表处理模块：create_linkedList1(int n）创建双向循环链表并初始化为0,create_linkedList2(int n)创建双向循环链表，size()用于获取链表长度，insert(int item, int pos)实现在pos位置后插入节点，将节点数据部分赋值为item, erase(int pos)用于删除pos处的节点， display(ostream & out)直接输出链表数据，将最后加减乘除指数运算所得结果输出至屏幕。
+- 主调程序模块：main_operation1()和main_operation2()为两个主调函数。main_operation1()不涉及文件，但有时间和取余操作；然而对于另一个主调函数main_operation2()而言，涉及文件并实现了硬盘文件和内存的输入输出操作。main()函数总揽全局，实现四则运算及指数运算功能。
+- 双向链表处理模块：create_linkedList1(int n）创建双向循环链表并初始化为0,create_linkedList2(int n)创建双向循环链表，size()用于获取链表长度，insert(int item, int pos)实现在pos位置后插入节点，将节点数据部分赋值为item, erase(int pos)用于删除pos处的节点， display(ostream & out)直接输出链表数据，将最后加减乘除指数运算所得结果输出至屏幕。
 - 长整数运算模块：add_bigNum(linkedList & opr1,linkedList & opr2)实现长整数加法运算，sub_bigNum(linkedList & opr1,linkedList & opr2)实现长整数的减法运算mul_bigNum(linkedList & opr1,linkedList & opr2)实现长整数的乘法运算，div_bigNum(linkedList & opr1,linkedList & opr2)实现长整数的除法运算，mod_bigNum(linkedList & opr1,linkedList & opr2)实现长整数的取模运算，ind_bigNum(linkedList & opr1,linkedList & opr2)实现长整数的指数运算。
 - 界面模块：welcome()用户欢迎界面，title()不涉及文件的标题界面。
 ## 数据结构的设计
